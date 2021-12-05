@@ -5,9 +5,13 @@ The goal of this analysis is to create a multiple-line graph that shows the tota
 
 ## Results
 
-Analyzing the summary data frame, we can see a trend between a city's population and the total number of rides. This correlation directly affects the total number of drivers, total fare collected, and their averages. As a city become further from an urbanized area, they get fewer drivers and fares. Despite this, the average far per ride and fare per driver actually increase. This phenomenon can be explained by PyBer users having less drivers available in more rural areas. The decrease in the amount of drivers means the average far per rider and driver will be higher. The distance covered in rural areas may also affect the higher price per rider and driver in rural areas. ![Summary Data]()
+Analyzing the summary data frame, we can see a trend between a city's population and the total number of rides. This correlation directly affects the total number of drivers, total fare collected, and their averages. As a city become further from an urbanized area, they get fewer drivers and fares. Despite this, the average far per ride and fare per driver actually increase. This phenomenon can be explained by PyBer users having less drivers available in more rural areas. The decrease in the amount of drivers means the average far per rider and driver will be higher. The distance covered in rural areas may also affect the higher price per rider and driver in rural areas. 
 
-Looking at the ![multi-line chart]() created, we can compare total fares by the city typer of a 5-month period. The number of rides completed seems to peak at the end of February and fluctuates during March. The graphs tend to follow the same trend through the 5-month period, except for in suburban cities. There, we see a more visible increase during April.
+![Summary Data](https://github.com/ChicletKeyboard/PyBer_Analysis/blob/7c15c809f61ca6b26cdb5b77fc7ba7be5cd2b88d/Analysis/Summary%20DataFrame.png)
+
+Looking at the multi-line chart created, we can compare total fares by the city typer of a 5-month period. The number of rides completed seems to peak at the end of February and fluctuates during March. The graphs tend to follow the same trend through the 5-month period, except for in suburban cities. There, we see a more visible increase during April.
+
+![multi-line chart](Analysis/Fig8.png)
 
 ## Summary
 
